@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Rushi Tech - Course Registration</title>
+    <title>GOKULIFRAHUB - Course Registration</title>
  <link href="css/rushi-style.css" rel="stylesheet" type="text/css"/>
 </head>
 <div class="header">
@@ -18,7 +18,7 @@
         <input type="email" th:field="*{email}" />
         <div class="error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
 
-        <label>Phone:</label>
+        <label>Mobile:</label>
         <input type="text" th:field="*{phone}" />
         <div class="error" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}"></div>
 
