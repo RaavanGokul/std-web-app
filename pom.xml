@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rushi</groupId>
 	<artifactId>student-reg-webapp</artifactId>
-	<version>11.0-SNAPSHOT</version>
+	<version>12.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
 		<java.version>11</java.version>
@@ -23,11 +23,11 @@
     <distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.127.38.87:8081/repository/dev-std-webapp-release/</url>
+			<url>http://43.204.238.101:8081/repository/dev-std-webapp-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.127.38.87:8081/repository/dev-std-webapp-snapshot/</url>
+			<url>http://43.204.238.101:8081/repository/dev-std-webapp-snapshot/</url>
 		</snapshotRepository>
     </distributionManagement>
 
